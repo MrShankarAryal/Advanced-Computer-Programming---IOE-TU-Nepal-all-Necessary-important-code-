@@ -1,0 +1,5 @@
+with open("student.bin","wb")as file:
+    n=int(input("Enter a number: "))
+    for i in range(n):
+        print("student no.{i+1}")
+        sname=input("Enter a name")
